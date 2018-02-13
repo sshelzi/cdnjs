@@ -1,0 +1,49 @@
+{
+  "name": "fg-loadcss",
+  "version": "2.0.1",
+  "filename": "validator.min.js",
+  "description": "A function for loading CSS asynchronously",
+  "homepage": "https://github.com/filamentgroup/loadCSS",
+  "main": "src/loadCSS.js",
+    "keywords": [
+    "loadcss",
+    "CSS",
+    "style",
+    "asynchronously",
+    "rendering",
+    "page",
+    "blocking",
+    "polyfill",
+    "preload",
+    "critical"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filamentgroup/loadCSS.git"
+  },
+  "author": "Filament Group <hello@filamentgroup.com>",
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/filamentgroup/loadCSS.git",
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "loadCSS-min.js",
+          "loadCSS-min.map",
+          "loadCSS.js"
+        ]
+      }
+    ]
+  },
+  "npmName": "fg-loadcss",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
+}
